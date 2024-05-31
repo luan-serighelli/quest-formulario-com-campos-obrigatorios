@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Quest 2 - Formulário com campos obrigatórios</title>
+</head>
+
+<body>
+    <main>
+        <div class="texto">
+            <h2>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM</h2>
+            <p>Caso tenha ficado com qualquer dúvida, basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <div class="formulario">
+
+            <div class="campo-de-preenchimento">
+                <input type="text" class="input" placeholder="Nome completo *">
+                <sub>Campo obrigatório</sub>
+            </div>
+
+            <div class="campo-de-preenchimento">
+                <input type="text" class="input" placeholder="Email *">
+                <sub>Campo obrigatório</sub>
+            </div>
+
+            <div class="campo-de-preenchimento">
+                <input type="text" class="input" placeholder="Telefone *">
+                <sub>Campo obrigatório</sub>
+            </div>
+            
+            <div class="campo-de-preenchimento">
+                <textarea class="input" placeholder="Mensagem *" style="resize: none;"></textarea>
+                <sub>Campo obrigatório</sub>
+            </div>
+
+            <p>*Campos obrigatórios</p>
+            
+            <button class="botao-enviar">Enviar</button>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="./src/js/index.js"></script>
+</body>
+
+</html>

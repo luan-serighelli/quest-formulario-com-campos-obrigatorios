@@ -1,0 +1,105 @@
+main{
+    background-image: url(../images/3715c9cd9f8486e8d371be79339c8492.jpeg);
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 50px;
+}
+
+.texto {
+    color: #fff;
+    max-width: 350px;
+    height: 111px;
+}
+
+.texto h2 {
+    width: 350px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.texto p {
+    font-size: 15px;
+    max-width: 300px;
+}
+
+.formulario{
+    background-color: #fff;
+    width: 340px; height: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 20px;
+}
+
+.formulario .campo-de-preenchimento{
+    position: relative;
+}
+
+.formulario .campo-de-preenchimento .input{
+    width: 298px; height: 35px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.formulario .campo-de-preenchimento:nth-child(4) .input{
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-weight: 500;
+}
+
+.formulario .campo-de-preenchimento sub{
+    color: rgb(247, 98, 98);
+    display: none;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.formulario .campo-de-preenchimento .input.vazio{
+    border-color: rgb(247, 98, 98);
+}
+
+.formulario .campo-de-preenchimento .input.vazio + sub{
+    display: block;
+    position: absolute;
+    top: 33px;
+}
+
+.formulario .campo-de-preenchimento:nth-child(4) .input.vazio + sub{
+    display: block;
+    position: absolute;
+    top: 98px;
+}
+
+.formulario .campo-de-preenchimento .input.preenchido{
+    border-color: rgb(64, 209, 96);
+}
+
+.formulario p{
+    position: relative;
+    left: -75px;
+    font-size: 15px;
+}
+
+.formulario .botao-enviar{
+    background-color: rgb(59, 204, 135);
+    width: 298px; height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.formulario .botao-enviar:hover{
+    cursor: pointer;
+}
